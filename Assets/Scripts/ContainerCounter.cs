@@ -1,11 +1,10 @@
 using UnityEngine;
 
-public class ClearCounter : MonoBehaviour, IKitchenObjectParent
+public class ContainerCounter : MonoBehaviour, IKitchenObjectParent
 {
     [SerializeField] private KitchenObjectSO kitchenObjectSO;
     [SerializeField] private Transform counterTopPoint;
     private KitchenObject kitchenObject;
-    
     public void Interact(Player player)
     {
         if (kitchenObject == null)
@@ -16,10 +15,8 @@ public class ClearCounter : MonoBehaviour, IKitchenObjectParent
         else
         {
             kitchenObject.SetKitchenObjectParent(player);
-            //Debug.Log(kitchenObject.GetClearCounter());
         }
     }
-
     public Transform GetKitchenObjectFollowTransform()
     {
         return counterTopPoint;
