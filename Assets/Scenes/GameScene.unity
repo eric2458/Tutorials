@@ -2159,12 +2159,12 @@ MonoBehaviour:
   KeyMoveDownText: {fileID: 897531432}
   KeyMoveLeftText: {fileID: 841617473}
   KeyMoveRightText: {fileID: 205544141}
-  KeyMoveInteractText: {fileID: 269230378}
-  KeyMoveInteractAlternateText: {fileID: 1692810886}
-  KeyMovePauseText: {fileID: 601746732}
-  KeyMoveGamepadInteractText: {fileID: 370838932}
-  KeyMoveGamepadInteractAlternateText: {fileID: 573072188}
-  KeyMoveGamepadPauseText: {fileID: 1093476432}
+  KeyInteractText: {fileID: 0}
+  KeyInteractAlternateText: {fileID: 0}
+  KeyPauseText: {fileID: 0}
+  KeyGamepadInteractText: {fileID: 0}
+  KeyGamepadInteractAlternateText: {fileID: 0}
+  KeyGamepadPauseText: {fileID: 0}
 --- !u!1 &345563787
 GameObject:
   m_ObjectHideFlags: 0
@@ -2593,9 +2593,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'W
-
-'
+  m_text: A
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3107,7 +3105,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &441546440
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3938,9 +3936,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'W
-
-'
+  m_text: Y
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8601,9 +8597,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'W
-
-'
+  m_text: START
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8630,8 +8624,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 10
+  m_fontSizeBase: 10
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -14480,7 +14474,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2040732186
 RectTransform:
   m_ObjectHideFlags: 0
